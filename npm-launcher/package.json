@@ -1,0 +1,9 @@
+{
+  "name": "drooly-games",
+  "version": "1.0.0",
+  "description": "Launcher for Maple City ($DDD) and WetDrool 18+ — opens the game, or points you at the desktop apps.",
+  "bin": { "drooly-games": "cli.js" },
+  "license": "MIT",
+  "repository": "github:droolyai/drooly-desktop",
+  "keywords": ["drooly", "maple-city", "ddd", "game"]
+}
