@@ -1,0 +1,18 @@
+{
+  "name": "drooly-desktop",
+  "version": "1.0.0",
+  "description": "Desktop shells for Maple City ($DDD) and WetDrool 18+ — same cloud moshpit as web + Seeker (cross-device multiplayer).",
+  "main": "src/main.js",
+  "author": "Drooly <agents@drooly.ai>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron .",
+    "start:wetdrool": "DROOLY_GAME=wetdrool electron .",
+    "build:ddd": "node scripts/set-target.js ddd && electron-builder --config electron-builder.ddd.json",
+    "build:wetdrool": "node scripts/set-target.js wetdrool && electron-builder --config electron-builder.wetdrool.json"
+  },
+  "devDependencies": {
+    "electron": "^38.2.0",
+    "electron-builder": "^26.0.12"
+  }
+}
