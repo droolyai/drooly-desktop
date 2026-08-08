@@ -80,6 +80,21 @@ function openBoot(targetKey) {
     backgroundColor: t.bg,
     webPreferences: { contextIsolation: true, nodeIntegration: false, sandbox: true },
   });
+  // Same navigation guards as the main window (gilfoyle-infra review): boot.html
+  // is static today, but it runs page JS (the tip rotator) and has no allowlist
+  // of its own — defense-in-depth so a future edit can't silently add a live
+  // link/redirect with zero guard.
+  win.webContents.setWindowOpenHandler(({ url }) => {
+    if (/^https?:/i.test(url)) shell.openExternal(url);
+    return { action: "deny" };
+  });
+  win.webContents.on("will-navigate", (event, url) => {
+    if (!isAllowed(url)) {
+      event.preventDefault();
+      if (/^https?:/i.test(url)) shell.openExternal(url);
+    }
+  });
+
   win.loadFile(path.join(__dirname, "boot.html")).then(() => {
     win.webContents.executeJavaScript(
       `window.__DROOLY_BOOT_SUB__ = ${JSON.stringify(t.bootSub)}; document.getElementById("target-sub").textContent = ${JSON.stringify(t.bootSub)};`
