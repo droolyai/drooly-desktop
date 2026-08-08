@@ -1,8 +1,13 @@
 # Drooly Desktop — Maple City ($DDD) + WetDrool 18+
 
-Native desktop apps for the Drooly games. Thin, secure Electron shells over the
+Native desktop apps for the Drooly games. Secure Electron shells over the
 live web games — **same cloud moshpit as web and Solana Seeker**, so desktop
 players share rooms with every device (cross-device multiplayer out of the box).
+
+One running app covers **both** games: an animated dusk-palette boot screen
+(film grain, progress sweep, rotating tips) plays on cold start and on switch,
+and a native **Games** menu jumps between Maple City and WetDrool without a
+second install.
 
 | App | Game | Rating |
 | --- | ---- | ------ |
