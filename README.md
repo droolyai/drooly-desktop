@@ -1,4 +1,4 @@
-# Drooly Desktop — Maple City ($DDD) + WetDrool 18+
+# Drooly Desktop — Maple City (DDD) + WetDrool 18+
 
 Native desktop apps for the Drooly games. Secure Electron shells over the
 live web games — **same cloud moshpit as web and Solana Seeker**, so desktop
@@ -54,7 +54,8 @@ Dev run: `npm start` (Maple City) · `npm run start:wetdrool`
 
 ## Token honesty
 
-$DDD is the in-game economy. There is **no live on-chain $DDD mint**; if one
-ships it will be published in-app and on drooly.ai only. NFA.
+DDD is the in-game economy. A DDD Token-2022 mint exists on Solana mainnet
+with **zero supply and no pool** — nothing is tradeable and nothing is being
+sold. Any change to that will be published in-app and on drooly.ai only.
 
 Original IP (Maple City, D-Roc, Ari Pink). Not affiliated with Rockstar.

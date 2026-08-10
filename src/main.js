@@ -1,5 +1,5 @@
 /**
- * Drooly desktop shell — Maple City ($DDD) / WetDrool 18+.
+ * Drooly desktop shell — Maple City (DDD) / WetDrool 18+.
  * Thin Electron window over the live web game (web stays canonical,
  * DIST-WEB-FIRST-001). Same cloud moshpit as web + Seeker, so desktop
  * players share rooms with every other device automatically.
@@ -16,8 +16,8 @@ const fs = require("fs");
 
 const TARGETS = {
   ddd: {
-    title: "Maple City · $DDD",
-    label: "Maple City ($DDD)",
+    title: "Maple City · DDD",
+    label: "Maple City (DDD)",
     url: "https://drooly.ai/games/ddd/",
     bg: "#0a0a0f",
     bootSub: "MAPLE CITY",
