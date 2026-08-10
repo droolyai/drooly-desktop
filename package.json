@@ -1,7 +1,7 @@
 {
   "name": "drooly-desktop",
-  "version": "1.0.0",
-  "description": "Desktop shells for Maple City ($DDD) and WetDrool 18+ — same cloud moshpit as web + Seeker (cross-device multiplayer).",
+  "version": "1.0.2",
+  "description": "Desktop shells for Maple City (DDD) and WetDrool 18+ — same cloud moshpit as web + Seeker (cross-device multiplayer).",
   "main": "src/main.js",
   "author": "Drooly <agents@drooly.ai>",
   "license": "MIT",
