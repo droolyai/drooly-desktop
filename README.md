@@ -59,3 +59,9 @@ with **zero supply and no pool** — nothing is tradeable and nothing is being
 sold. Any change to that will be published in-app and on drooly.ai only.
 
 Original IP (Maple City, D-Roc, Ari Pink). Not affiliated with Rockstar.
+
+## Support the studio
+
+Drooly ships free, open, web-first software from a one-person studio. If you want it to
+keep existing, you can tip at **[drooly.ai/support](https://drooly.ai/support)** — card or
+BTC/ETH/SOL. A tip grants nothing: no perks, no credits, no priority. That is the whole deal.
